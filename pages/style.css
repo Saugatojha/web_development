@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(9, 33, 67);
+}
+p {
+  color: red;
+}
+.box {
+  margin: 220px;
+  width: 120px;
+  height: 250px;
+}
+.box1 {
+  background-color: rgba(237, 152, 14, 0.803);
+}
