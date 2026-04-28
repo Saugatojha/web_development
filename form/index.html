@@ -6,8 +6,9 @@
     <title>form</title>
   </head>
   <body>
+
     <h1>form</h1>
-    <form>
+    <form method="post" action="submit">
       <label for="user_name">User name: </label>
       <input type="text" id="user_name" />
       <br />
@@ -33,6 +34,27 @@
       <label for="female">Female</label>
       <input type="radio" id="female" value="Female" name="gender" />
       <br>
+      <select name="internet" id="internet">
+        <option value="" disabled selected>Select Internet</option>
+        <option value="worldlink">Worldlink</option>
+        <option value="classic">Classic</option>
+        <option value="subisu">Subisu</option>
+        <option value="cg">CG</option>
+      </select>
+      <br>
+      <label for="fav_internet">Favorite internet</label>
+      <br>
+      <label for="worldlink">Worldlink</label>
+       <input type="checkbox" id="worldlink" name="isp" value="worldlink">
+      <br>
+      <label for="classictech">Classic Tech</label>
+        <input type="checkbox" id="classictech" name="isp" value="classictech">
+        <br>
+      <label for="subisu">Subisu</label>
+        <input type="checkbox" id="subisu" name="isp" value="subisu">
+      <br><br><br>
+      <label for="submit"></label>
+        <input type="submit" value="Submit this form" id="submit">
     </form>
   </body>
 </html>
