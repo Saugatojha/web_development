@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(187, 226, 151);
+}
+#text_formatting{
+    font-family: "Playwrite DE SAS", cursive;
+    text-align: center;
+    color: rgb(8, 12, 234);
+    text-decoration: overline;
+    text-decoration-style: dashed;
+    margin-bottom: 20px;
+}
+#paragraph{
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
