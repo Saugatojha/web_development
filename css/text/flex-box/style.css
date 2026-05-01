@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(234, 227, 128);
+}
+#head_part{
+    font-family: "Playwrite DE SAS", cursive;
+    text-align: center;
+    color: rgb(8, 12, 234);
+    text-decoration: overline;
+    text-decoration-style: dashed;
+    margin-bottom: 20px;
+}
+#paragraph{
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid rgb(6, 26, 56);
+    align-content: space-around;
+    height: 800px;
+    margin: 50px;
+
+}
+.container p{
+    text-align: center;
+    color: rgb(142, 232, 24);
+    font-size:26px;
+}
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin: 50px;
+}
+
+#box-1{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 25%; 
+}
+#box-2{
+    order: 2;
+
+}
